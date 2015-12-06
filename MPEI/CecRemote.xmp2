@@ -20,23 +20,23 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>Release\LibCecSharp\libcec.dll</LocalFileName>
+              <LocalFileName>..\Libraries\libcec.dll</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{44a5f835-81af-499c-a9ba-2fba5b953864}-libcec.dll</ZipFileName>
-              <DestinationFilename>%Plugins%\process\LibCecSharp\libcec.dll</DestinationFilename>
+              <DestinationFilename>%Base%\libcec.dll</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>Release\LibCecSharp\LibCecSharp.dll</LocalFileName>
+              <LocalFileName>..\Libraries\LibCecSharp.dll</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{dd9ea537-7dba-4bb2-80e7-7c090a391397}-LibCecSharp.dll</ZipFileName>
-              <DestinationFilename>%Plugins%\process\LibCecSharp\LibCecSharp.dll</DestinationFilename>
+              <DestinationFilename>%Base%\LibCecSharp.dll</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>Release\CecRemote.xml</LocalFileName>
+              <LocalFileName>..\Includes\CecRemote.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{9ff7d7bf-8634-41c8-934d-d7d8aac6dc82}-CecRemote.xml</ZipFileName>
-              <DestinationFilename>%Base%\defaults\InputDeviceMappings\CecRemote.xml</DestinationFilename>
+              <DestinationFilename>%Base%\CecRemote.xml</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -171,24 +171,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     </Items>
   </Dependencies>
   <PluginDependencies>
-    <Items>
-      <PluginDependencyItem AssemblyName="CecRemote.dll">
-        <CompatibleVersion>
-          <Items>
-            <CompatibleVersionItem>
-              <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
-              <DesignedForVersion>1.1.6.27644</DesignedForVersion>
-            </CompatibleVersionItem>
-          </Items>
-        </CompatibleVersion>
-        <SubSystemsUsed>
-          <Items>
-            <SubSystemItem Name="MP.Input" />
-            <SubSystemItem Name="MP.Config" />
-          </Items>
-        </SubSystemsUsed>
-      </PluginDependencyItem>
-    </Items>
+    <Items />
   </PluginDependencies>
   <GeneralInfo>
     <Name>CecRemote</Name>
@@ -254,23 +237,23 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>Release\LibCecSharp\libcec.dll</LocalFileName>
+        <LocalFileName>..\Libraries\libcec.dll</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{44a5f835-81af-499c-a9ba-2fba5b953864}-libcec.dll</ZipFileName>
-        <DestinationFilename>%Plugins%\process\LibCecSharp\libcec.dll</DestinationFilename>
+        <DestinationFilename>%Base%\libcec.dll</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>Release\LibCecSharp\LibCecSharp.dll</LocalFileName>
+        <LocalFileName>..\Libraries\LibCecSharp.dll</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{dd9ea537-7dba-4bb2-80e7-7c090a391397}-LibCecSharp.dll</ZipFileName>
-        <DestinationFilename>%Plugins%\process\LibCecSharp\LibCecSharp.dll</DestinationFilename>
+        <DestinationFilename>%Base%\LibCecSharp.dll</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>Release\CecRemote.xml</LocalFileName>
+        <LocalFileName>..\Includes\CecRemote.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{9ff7d7bf-8634-41c8-934d-d7d8aac6dc82}-CecRemote.xml</ZipFileName>
-        <DestinationFilename>%Base%\defaults\InputDeviceMappings\CecRemote.xml</DestinationFilename>
+        <DestinationFilename>%Base%\CecRemote.xml</DestinationFilename>
       </FileItem>
     </Items>
   </UniqueFileList>
